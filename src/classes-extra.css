@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item-mobile {
+  @apply flex items-start gap-2 text-[18px] relative right-[-10px] font-semibold;
+}
+
+.our-brands-item {
+  @apply flex flex-col gap-2 text-center relative hover:[&>img]:scale-75 hover:[&>img]:rotate-[22deg] md:hover:before:to-primary transition-transform duration-500 before:content-[''] before:w-[140px] before:h-[140px] before:rounded-full before:bg-gradient-to-br before:from-primary before:via-transparent before:to-transparent before:absolute before:top-[10px] before:left-[20%] before:z-[-1];
+}
