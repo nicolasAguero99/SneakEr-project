@@ -48,12 +48,12 @@ const Model3D = () => {
 
     // const cubeTextureLoader = new THREE.CubeTextureLoader()
     // const evp = cubeTextureLoader.load([
-    //   "./src/assets/envMap/px.jpg",
-    //   "./src/assets/envMap/nx.jpg",
-    //   "./src/assets/envMap/py.jpg",
-    //   "./src/assets/envMap/ny.jpg",
-    //   "./src/assets/envMap/pz.jpg",
-    //   "./src/assets/envMap/nz.jpg",
+    //   "/envMap/px.jpg",
+    //   "/envMap/nx.jpg",
+    //   "/envMap/py.jpg",
+    //   "/envMap/ny.jpg",
+    //   "/envMap/pz.jpg",
+    //   "/envMap/nz.jpg",
     // ]);
 
     // Loader
@@ -61,7 +61,7 @@ const Model3D = () => {
     const sneaker = new THREE.Group()
 
     const gltfLoader = new GLTFLoader()
-    gltfLoader.load('./src/assets/sneakers/scene.gltf', (gltf) => {
+    gltfLoader.load('/sneakers/scene.gltf', (gltf) => {
       // Procesa el modelo glTF cargado aquí
       // gltf.scene.traverse((child) => {
       //   if (child.isMesh) {

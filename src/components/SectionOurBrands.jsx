@@ -10,17 +10,17 @@ const SectionOurBrands = () => {
       </div>
       <div className="flex flex-wrap justify-center items-center gap-20 my-16">
         <div className="our-brands-item">
-          <img className="w-[220px] transition-transform duration-500" src="./src/assets/sneaker-nike.png" alt="sneaker Nike" />
+          <img className="w-[220px] transition-transform duration-500" src="/sneaker-nike.png" alt="sneaker Nike" />
           <h3 className="text-2xl font-bold">Nike</h3>
           <a className="text-primary underline hover:opacity-50 transition-opacity duration-300" href="#">Ver más de Nike</a>
         </div>
         <div className="our-brands-item">
-          <img className="w-[220px] transition-transform duration-500" src="./src/assets/sneaker-adidas.png" alt="sneaker Adidas" />
+          <img className="w-[220px] transition-transform duration-500" src="/sneaker-adidas.png" alt="sneaker Adidas" />
           <h3 className="text-2xl font-bold">Adidas</h3>
           <a className="text-primary underline hover:opacity-50 transition-opacity duration-300" href="#">Ver más de Adidas</a>
         </div>
         <div className="our-brands-item">
-          <img className="w-[220px] transition-transform duration-500" src="./src/assets/sneaker-puma.png" alt="sneaker Puma" />
+          <img className="w-[220px] transition-transform duration-500" src="/sneaker-puma.png" alt="sneaker Puma" />
           <h3 className="text-2xl font-bold">Puma</h3>
           <a className="text-primary underline hover:opacity-50 transition-opacity duration-300" href="#">Ver más de Puma</a>
         </div>

@@ -6,8 +6,8 @@ const SectionPresentation = () => {
     <section className='flex flex-col items-center gap-y-40 px-12 sm:px-6 py-10'>
       <div className='flex flex-wrap items-center justify-center gap-20'>
         <div className='flex flex-col gap-4 relative'>
-          <img className="w-[250px] scale-x-[-1] rotate-[30deg]" src="./src/assets/sneaker-red-black.png" alt="sneaker red black white" />
-          <img className="max-[280px]:hidden w-[220px] absolute top-[-20px] left-[-10px] z-[-1]" src="./src/assets/svg/bckg-sneaker-red-black.svg" alt="background red black white" />
+          <img className="w-[250px] scale-x-[-1] rotate-[30deg]" src="/sneaker-red-black.png" alt="sneaker red black white" />
+          <img className="max-[280px]:hidden w-[220px] absolute top-[-20px] left-[-10px] z-[-1]" src="/svg/bckg-sneaker-red-black.svg" alt="background red black white" />
         </div>
         <div className='flex flex-col gap-4'>
           <h2 className="font-black uppercase text-2xl max-w-[250px]">Pensamos en tí en cada paso</h2>
@@ -18,8 +18,8 @@ const SectionPresentation = () => {
 
       <div className='flex flex-wrap flex-row-reverse items-center justify-center gap-20'>
         <div className='flex flex-col gap-4 relative'>
-          <img className="w-[250px] rotate-[-30deg]" src="./src/assets/sneaker-red-blue.png" alt="sneaker red blue white" />
-          <img className="max-[280px]:hidden w-[220px] absolute top-[-45px] left-[25px] z-[-1]" src="./src/assets/svg/bckg-sneaker-red-blue.svg" alt="background red black white" />
+          <img className="w-[250px] rotate-[-30deg]" src="/sneaker-red-blue.png" alt="sneaker red blue white" />
+          <img className="max-[280px]:hidden w-[220px] absolute top-[-45px] left-[25px] z-[-1]" src="/svg/bckg-sneaker-red-blue.svg" alt="background red black white" />
         </div>
         <div className='flex flex-col gap-4'>
           <h2 className="font-black uppercase text-2xl max-w-[250px]">Tenemos lo último para tí</h2>

@@ -27,23 +27,23 @@ const Nav = () => {
         <div>
           {!isOpenNav && (
             <span className="flex [&>img]:w-10 cursor-pointer" onClick={handleClickOpenkMenu}>
-              <img src="./src/assets/svg/menu-mobile-icon.svg" alt="open menu" />
+              <img src="/svg/menu-mobile-icon.svg" alt="open menu" />
             </span>
           )}
           {isOpenNav && (
             <ul className="flex flex-col justify-center gap-20 relative z-20">
               <li className="[&>img]:w-10 cursor-pointer" onClick={handleClickCloseMenu}>
-                <img src="./src/assets/svg/close-mobile-icon.svg" alt="close menu" />
+                <img src="/svg/close-mobile-icon.svg" alt="close menu" />
               </li>
               <li
                 className={`nav-item-mobile ${ isOpenNav ? "translate-x-0" : "-translate-x-full"}`}
               >
-                <img className="w-6" src={`./src/assets/svg/home-icon${isActiveMobile("/home")}.svg`} alt="home icon" />
+                <img className="w-6" src={`/svg/home-icon${isActiveMobile("/home")}.svg`} alt="home icon" />
                 <a href="#">Inicio</a>
               </li>
               <li className={`nav-item-mobile ${isOpenNav ? "translate-x-0" : "-translate-x-full"}`}
               >
-                <img className="w-6" src={`./src/assets/svg/sneaker-icon${isActiveMobile("/products")}.svg`} alt="sneaker icon" />
+                <img className="w-6" src={`/svg/sneaker-icon${isActiveMobile("/products")}.svg`} alt="sneaker icon" />
                 <a href="#">Productos</a>
               </li>
               <li
@@ -51,7 +51,7 @@ const Nav = () => {
                   isOpenNav ? "translate-x-0" : "-translate-x-full"
                 }`}
               >
-                <img className="w-7" src={`./src/assets/svg/info-icon${isActiveMobile("/about")}.svg`} alt="info icon" />
+                <img className="w-7" src={`/svg/info-icon${isActiveMobile("/about")}.svg`} alt="info icon" />
                 <a href="#">Acerca</a>
               </li>
               <li
@@ -59,7 +59,7 @@ const Nav = () => {
                   isOpenNav ? "translate-x-0" : "-translate-x-full"
                 }`}
               >
-                <img className="w-7" src={`./src/assets/svg/message-icon${isActiveMobile("/contact")}.svg`} alt="message icon" />
+                <img className="w-7" src={`/svg/message-icon${isActiveMobile("/contact")}.svg`} alt="message icon" />
                 <a href="#">Contacto</a>
               </li>
             </ul>

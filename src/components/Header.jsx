@@ -24,14 +24,14 @@ const Header = ({ children }) => {
   }
 
   return (
-    <header className="flex flex-col-reverse min-[1090px]:flex-row items-center justify-center px-12 sm:px-6 h-screen bg-[url('./src/assets/svg/misc-background.svg')] bg-center bg-no-repeat bg-cover">
+    <header className="flex flex-col-reverse min-[1090px]:flex-row items-center justify-center px-12 sm:px-6 h-screen bg-[url('/svg/misc-background.svg')] bg-center bg-no-repeat bg-cover">
       {children}
       <div className="flex flex-col gap-8 relative min-[1090px]:top-[-60px]">
         <h1 className="sm:w-[490px] lg:leading-snug text-2xl sm:text-3xl lg:text-5xl font-bold font-Montserrat uppercase">Vive la <strong className={`text-primary font-bold`}>calidad</strong> y <strong className={`text-primary font-bold`}>estilo</strong> en cada paso</h1>
         <button type="button" className={`hvr-radial-out text-white sm:text-lg font-semibold bg-primary rounded-full min-[1090px]:w-[140px] py-2 border-2 hover:text-primary hover:border-2 hover:border-primary`}> Ver más</button>
       </div>
-      <div className={`relative max-[1090px]:top-[-60px] left-[-20px] sm:left-[-40px] min-[1090px]:top-[-60px] after:content-[''] min-[1090px]:after:bg-[url('./src/assets/svg/misc-dash.svg')] after:bg-center after:bg-no-repeat after:bg-contain after:w-[900px] after:h-[800px] after:block after:absolute after:top-[-380px] after:left-[340px] after:z-[-1]`}>
-        <img className="animated-sneaker-header w-[555px] h-auto" src={`./src/assets/${sneakerImg}.png`} alt="sneaker" ref={sneakerImgRef} />
+      <div className={`relative max-[1090px]:top-[-60px] left-[-20px] sm:left-[-40px] min-[1090px]:top-[-60px] after:content-[''] min-[1090px]:after:bg-[url('/svg/misc-dash.svg')] after:bg-center after:bg-no-repeat after:bg-contain after:w-[900px] after:h-[800px] after:block after:absolute after:top-[-380px] after:left-[340px] after:z-[-1]`}>
+        <img className="animated-sneaker-header w-[555px] h-auto" src={`/${sneakerImg}.png`} alt="sneaker" ref={sneakerImgRef} />
       </div>
       <div className="absolute bottom-16 min-[1090px]:bottom-32">
         <svg xmlns="http://www.w3.org/2000/svg" width="127" height="20" viewBox="0 0 127 24" fill="none">
